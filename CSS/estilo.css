@@ -54,12 +54,14 @@ main {
     height: 815px;
     background-image: url(../assets/Banner.png);
     background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
 }
 
 .box_banner {
     display: flex;
     justify-content: end;
-    width: 1450px;
+    width: 1562px;
     margin: 0px auto;
     height: 100%;
 
@@ -125,6 +127,7 @@ h1 {
     width: 100%;
     background-repeat: no-repeat;
     background-image: url(../assets/Rectangle\ 5.png);
+    background-size: cover;
     position: relative;
 }
 
@@ -200,6 +203,7 @@ h2 {
     height: 1124px;
     width: 100%;
     background-color: #262428;
+    padding: 58px 0px;
 }
 
 .box_noticias_partidas {
@@ -223,12 +227,13 @@ h2 {
     justify-content: space-between;
 }
 
-
 .titulos span {
     color: #fff;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 700;
     font-size: 34px;
+    width: 285px;
+    margin-bottom: 15px;
 }
 
 .container_noticias {
@@ -302,4 +307,149 @@ h2 {
     width: 216px;
     height: 834.51px;
     /* background-color: green; */
+}
+
+footer {
+    height: 337px;
+    width: 100%;
+    background-color: #010101;
+    padding: 49px 0px;
+}
+
+.container_footer {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: tomato; */
+    height: 100%;
+}
+
+.posicionar_listas {
+    height: 100%;
+    width: 332px;
+    /* background-color: violet; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.titulos_footer {
+    display: flex;
+    justify-content: space-between;
+    width: 306px;
+    margin-bottom: 40px;
+    /* background-color: turquoise; */
+}
+
+.titulos_footer span {
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.container_listas {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    /* background-color: teal; */
+}
+
+.links_uteis {
+    padding-right: 10px;
+}
+
+.links_uteis li a {
+    text-decoration: none;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 16,02px;
+    margin: 12px 0px 0 0;
+}
+
+.links_uteis li {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 16,02px;
+    margin: 12px 0px 0 0;
+}
+
+.paginas li a {
+    text-decoration: none;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 16,02px;
+    margin: 12px 25px 0 0;
+}
+
+.paginas li {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 16,02px;
+    margin: 12px 25px 0 0;
+}
+
+.logo_footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: green; */
+    height: 100%;
+    width: 490px;
+}
+
+.cadastrar {
+    height: 77px;
+    width: 362px;
+}
+
+.cadastrar span {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.box_cadastro {
+    display: flex;
+    margin-top: 10px;
+}
+
+.box_email {
+    width: 204px;
+    height: 34px;
+}
+
+.btn_cadastrar {
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #001F70;
+    width: 151px;
+    height: 34px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.redes_socias {
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes_socias span {
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.cadastro_redessociais {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 355px;
+    height: 100%;
 }
