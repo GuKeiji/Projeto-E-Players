@@ -50,7 +50,7 @@ header {
 .banner_cadastro {
     height: 237px;
     width: 100%;
-    background: linear-gradient(0deg, rgba(0, 31, 112, 0.62), rgba(0, 31, 112, 0.21)), url(../assets/Banner_cadastro_Times2.png);    background-repeat: no-repeat;
+    background: linear-gradient(0deg, rgba(0, 66, 60, 0.7), rgba(0, 145, 133, 0.7)), url(../assets/Group\ 12.png);    background-repeat: no-repeat;
     background-size: cover;
     margin-top: 106px;
 }
@@ -66,7 +66,7 @@ header {
 }
 
 .box_conteudo_banner {
-    width: 326px;
+    width: 348px;
     height: 60px;
 }
 
@@ -89,7 +89,7 @@ h2 {
 .container_cadastro_listas {
     background-color: #1E1C21;
     width: 100%;
-    height: 779px;
+    height: 1110px;
 }
 
 .organizar_campos {
@@ -107,7 +107,7 @@ h2 {
     align-items: center;
     justify-content: space-evenly;
     width: 770px;
-    height: 340px;
+    height: 629px;
     background: linear-gradient(180deg, #000000 0%, rgba(83, 83, 83, 0.577381) 25%, rgba(196, 196, 196, 0) 87.5%);
     box-shadow: 1px 1px 20px 4px #000000;
 }
@@ -119,6 +119,13 @@ h2 {
     font-size: 20px;
 }
 
+.area_cadastros {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 53px;
+}
+
 .campo_nomedaequipe {
     display: flex;
     flex-direction: column;
@@ -126,12 +133,8 @@ h2 {
     height: 53px;
 }
 
-.campo_emblemaequipe {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    height: 53px;
-    width: 575px;
+.campo_equipe {
+    margin: 91px 0;
 }
 
 .box_cadastrar {
@@ -150,14 +153,14 @@ h2 {
 .btn_cadastrar {
     color: #fff;
     text-transform: uppercase;
-    background-color: #001F70;
+    background-color: rgba(0, 145, 133, 0.7);
     width: 257px;
     height: 40px;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 700;
     font-size: 19px;
     border-radius: 10px;
-    border-color: #001F70;
+    border-color: rgba(0, 145, 133, 0.7);
 }
 
 .tabela_times {
@@ -180,6 +183,7 @@ table, td {
     padding: 18px 22px;
 }
 
+/* FOOTER */
 footer {
     height: 337px;
     width: 100%;
